@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-G39KWDN9K4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-G39KWDN9K4");
+    </script>
+
+    <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "myol0fdokv");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KTU College wise Result Analysis & Ranking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      border-color: #c7a26b !important;
+    }
+
+    .bg-background {
+      background-color: #ece3d4;
+    }
+    .bg-card {
+      background-color: #e6d5bc;
+    }
+    body {
+      font-family: "Space Mono", monospace;
+      --font-monospace: "Space Mono";
+      color: #4a381c;
+    }
+
+    .sort-icon {
+      cursor: pointer;
+      margin-left: 5px;
+    }
+
+    .sort-icon.active {
+      color: #4a5568;
+    }
+
+    .college-name {
+      cursor: pointer;
+      color: #2d3748;
+      text-decoration: underline;
+      transition: color 0.3s ease, text-decoration 0.3s ease;
+    }
+
+    .college-name:hover {
+      color: #1a202c;
+      text-decoration: none;
+    }
+
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+  <body class="bg-gray-100">
+    <div class="flex flex-col w-full min-h-screen bg-background">
+      <header
+        class="flex items-center justify-between h-16 px-6 border-b bg-card bg-muted/40"
+      >
+        <h1 class="text-lg font-bold">
+          KTU College-wise Result Analysis & Ranking
+        </h1>
+
+        <div class="flex items-center">
+          <svg
+            data-id="7"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="mr-2 h-4 w-4"
+          >
+            <path
+              d="M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5"
+            ></path>
+            <path d="M16 2v4"></path>
+            <path d="M8 2v4"></path>
+            <path d="M3 10h5"></path>
+            <path d="M17.5 17.5 16 16.3V14"></path>
+            <circle cx="16" cy="16" r="6"></circle>
+          </svg>
+
+          <select id="yearSelect" class="border rounded p-2">
+            <option value="2024">2024</option>
+            <!-- <option value="2023">2023</option> 2023 data not available(couldn't find) -->
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+          </select>
+        </div>
+      </header>
+      <main class="flex-1 p-6 md:p-10">
+        <div class="grid gap-4 grid-cols-1 md:grid-cols-2">
+          <!-- Top 5 Colleges Section -->
+          <div class="rounded-lg bg-card border shadow-sm" data-v0-t="card">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold mb-2">
+                Top 5 Colleges by Pass Percentage (400+ Student)
+              </h3>
+              <div id="top5Colleges" class="space-y-2 mb-4"></div>
+              <div style="height: 300px">
+                <canvas id="top5Chart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid gap-4 grid-cols-1 md:grid-cols-2">
+            <!-- Overall Pass Percentage and Historical Chart Section -->
+            <div class="rounded-lg bg-card border shadow-sm" data-v0-t="card">
+              <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">KTU Pass Percentage</h3>
+                <p
+                  id="overallPassPercentage"
+                  class="text-3xl font-bold mb-4"
+                ></p>
+              </div>
+            </div>
+            <div class="rounded-lg bg-card border shadow-sm" data-v0-t="card">
+              <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">Total Graduates</h3>
+                <p id="passedStudent" class="text-3xl font-bold mb-4"></p>
+              </div>
+            </div>
+            <div
+              class="rounded-lg bg-card border shadow-sm md:col-span-2"
+              data-v0-t="card"
+            >
+              <div class="p-4">
+                <h4 class="text-lg font-semibold mb-2">
+                  Year wise Pass Percentage
+                </h4>
+                <div style="height: 150px">
+                  <canvas id="historicalChart"></canvas>
+                </div>
+              </div>
+            </div>
+            <div
+              class="rounded-lg bg-card border shadow-sm md:col-span-2"
+              data-v0-t="card"
+            >
+              <div class="p-4">
+                <h4 class="text-lg font-semibold mb-2">
+                  Year wise Registered Student
+                </h4>
+                <div style="height: 150px">
+                  <canvas id="historicalRegisteredChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="rounded-lg bg-card border shadow-sm col-span-1 md:col-span-2"
+            data-v0-t="card"
+          >
+            <div class="p-4">
+              <div class="flex justify-between items-center mb-4">
+                <h3 class="text-xl font-semibold">College Ranking</h3>
+                <div class="relative">
+                  <input
+                    type="text"
+                    id="collegeSearch"
+                    placeholder="Search colleges..."
+                    class="border rounded p-2 pr-8 w-64"
+                  />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 absolute right-2 top-2.5 text-gray-400"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                  <thead>
+                    <tr class="border-b">
+                      <th class="p-2 text-left font-medium text-gray-500">
+                        Rank
+                        <i class="fas fa-sort sort-icon" data-sort="rank"></i>
+                      </th>
+                      <th class="p-2 text-left font-medium text-gray-500">
+                        Name
+                        <i class="fas fa-sort sort-icon" data-sort="name"></i>
+                      </th>
+                      <th class="p-2 text-left font-medium text-gray-500">
+                        Reg.
+                        <i
+                          class="fas fa-sort sort-icon"
+                          data-sort="registered"
+                        ></i>
+                      </th>
+                      <th class="p-2 text-left font-medium text-gray-500">
+                        Pass
+                        <i class="fas fa-sort sort-icon" data-sort="pass"></i>
+                      </th>
+                      <th class="p-2 text-left font-medium text-gray-500">
+                        Pass %
+                        <i
+                          class="fas fa-sort sort-icon"
+                          data-sort="passPercentage"
+                        ></i>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody id="collegeTableBody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer
+          class="w-full bg-white-500 text-gray-500 text-sm font-bold font-sans px-4 fixed bottom-0 right-0"
+        >
+          <div>
+            Created by
+            <a
+              class="hover:text-gray-300 transition-colors pb-0"
+              href="https://amithv.xyz"
+            >
+              amithv.xyz
+            </a>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <div
+      id="modal"
+      class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center"
+    >
+      <div class="bg-white p-6 rounded-lg max-w-4xl w-full">
+        <h2 id="modalTitle" class="text-2xl font-bold mb-4"></h2>
+        <div class="flex space-x-4">
+          <div class="w-1/2" style="height: 200px">
+            <canvas id="modalChartPass"></canvas>
+          </div>
+          <div class="w-1/2" style="height: 200px">
+            <canvas id="modalChartRegistered"></canvas>
+          </div>
+        </div>
+        <table class="w-full text-sm mt-4">
+          <thead>
+            <tr>
+              <th class="p-2 text-left">Year</th>
+              <th class="p-2 text-left">Rank</th>
+              <th class="p-2 text-left">Pass %</th>
+              <th class="p-2 text-left">Registered</th>
+            </tr>
+          </thead>
+          <tbody id="modalTableBody"></tbody>
+        </table>
+        <button
+          id="closeModal"
+          class="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+
+    <script>
+      // Constants
+      const YEARS = ["2019", "2020", "2021", "2022", "2024"];
+      const COLLEGE_COLORS = [
+        "rgba(255, 99, 132, 1)", // Pink
+        "rgba(54, 162, 235, 1)", // Blue
+        "rgba(255, 206, 86, 1)", // Yellow
+        "rgba(75, 192, 192, 1)", // Teal
+        "rgba(153, 102, 255, 1)", // Purple
+      ];
+
+      // State
+      let collegesData = {};
+      let currentYear = "2024";
+      let modalChartPass;
+      let modalChartRegistered;
+      let historicalChart;
+      let historicalRegisteredChart;
+      let top5Chart;
+      let currentSortColumn = "rank";
+      let currentSortOrder = "asc";
+
+      const calculatePassPercentage = (passCount, registrationCount) =>
+        (passCount / registrationCount) * 100;
+
+      const processData = (data) =>
+        data
+          .map((college) => ({
+            ...college,
+            passPercentage: calculatePassPercentage(
+              college["All Pass Count"],
+              college["Registration count"]
+            ),
+          }))
+          .sort((a, b) => b.passPercentage - a.passPercentage)
+          .map((college, index) => ({ ...college, rank: index + 1 }));
+
+      // fetch data from json files
+      const fetchData = () =>
+        Promise.all(
+          YEARS.map((year) =>
+            fetch(`/data/${year}.json`).then((response) => response.json())
+          )
+        )
+          .then((dataArray) => {
+            YEARS.forEach((year, index) => {
+              collegesData[year] = processData(dataArray[index]);
+            });
+            updateDashboard();
+          })
+          .catch((error) => console.error("Error:", error));
+
+      // Update functions
+      const updateDashboard = () => {
+        updateTop5Colleges();
+        updateOverallStats();
+        updateFullTable();
+        updateHistoricalCharts();
+      };
+
+      const updateTop5Colleges = () => {
+        const top5Container = document.getElementById("top5Colleges");
+        top5Container.innerHTML = "";
+        const top5Data = getTop5Colleges();
+
+        top5Data.forEach((college, index) => {
+          const div = document.createElement("div");
+          div.className =
+            "flex items-center justify-between w-full cursor-pointer";
+          div.innerHTML = `
+                <div class="flex items-center space-x-2 flex-grow"> <!-- Added flex-grow -->
+                    <div class="w-4 h-4 flex-shrink-0" style="background-color: ${
+                      COLLEGE_COLORS[index]
+                    }"></div> <!-- Added flex-shrink-0 -->
+                    <span class="font-medium flex-grow text-left pl-2"> <!-- Added flex-grow and text-left for alignment, and padding-left for spacing -->
+                        ${college.Institution}
+                    </span>
+                </div>
+                <span class="text-sm">${college.passPercentage.toFixed(
+                  2
+                )}%</span>
+            `;
+          div.addEventListener("click", () =>
+            showCollegeHistory(college.Institution)
+          );
+          top5Container.appendChild(div);
+        });
+
+        updateTop5Chart(top5Data);
+      };
+      const getTop5Colleges = () => {
+        const allColleges = collegesData[currentYear].filter(
+          (college) => college["Registration count"] >= 400
+        );
+
+        const top5Names = allColleges
+          .slice(0, 5)
+          .map((college) => college.Institution);
+
+        return top5Names.map((name) => {
+          const collegeData = {};
+          YEARS.forEach((year) => {
+            const yearData = collegesData[year].find(
+              (c) => c.Institution === name
+            );
+            if (yearData) {
+              collegeData[year] = yearData.passPercentage;
+            }
+          });
+          return {
+            Institution: name,
+            ...collegeData,
+            passPercentage: collegeData[currentYear],
+          };
+        });
+      };
+
+      const updateTop5Chart = (top5Data) => {
+        const ctx = document.getElementById("top5Chart");
+
+        if (top5Chart) {
+          top5Chart.destroy();
+        }
+
+        const [minValue, maxValue] = calculateMinMaxValues(top5Data);
+
+        top5Chart = new Chart(ctx, {
+          type: "line",
+          data: {
+            labels: YEARS,
+            datasets: top5Data.map((college, index) => ({
+              label: college.Institution,
+              data: YEARS.map((year) => college[year] || null),
+              borderColor: COLLEGE_COLORS[index],
+              backgroundColor: COLLEGE_COLORS[index].replace("1)", "0.2)"),
+              tension: 0,
+              borderWidth: 3,
+              pointBackgroundColor: COLLEGE_COLORS[index],
+              pointBorderColor: "#fff",
+              pointBorderWidth: 1,
+              pointRadius: 4,
+              pointHoverRadius: 6,
+              pointHoverBackgroundColor: COLLEGE_COLORS[index],
+              pointHoverBorderColor: "#fff",
+              pointHoverBorderWidth: 2,
+            })),
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                display: false,
+              },
+              title: {
+                display: true,
+                text: "Top 5 Colleges Historical Pass Percentage",
+                font: {
+                  size: 16,
+                  weight: "bold",
+                },
+                padding: {
+                  top: 10,
+                  bottom: 30,
+                },
+              },
+              tooltip: {
+                enabled: false,
+              },
+            },
+
+            scales: {
+              y: {
+                min: Math.max(0, Math.floor(minValue) - 5),
+                max: Math.min(100, Math.ceil(maxValue) + 5),
+                title: {
+                  display: true,
+                  text: "Pass Percentage",
+                  font: {
+                    weight: "bold",
+                  },
+                },
+                ticks: {
+                  callback: (value) => `${value}%`,
+                },
+              },
+              x: {
+                grid: {
+                  display: false,
+                },
+              },
+            },
+            interaction: {
+              mode: "nearest",
+              axis: "x",
+              intersect: false,
+            },
+            animation: {
+              duration: 1000,
+              easing: "easeOutQuad",
+            },
+          },
+        });
+      };
+
+      const calculateMinMaxValues = (data) => {
+        let minValue = 100;
+        let maxValue = 0;
+        data.forEach((college) => {
+          YEARS.forEach((year) => {
+            if (college[year] !== undefined) {
+              minValue = Math.min(minValue, college[year]);
+              maxValue = Math.max(maxValue, college[year]);
+            }
+          });
+        });
+        return [
+          Math.max(0, Math.floor(minValue) - 5),
+          Math.min(100, Math.ceil(maxValue) + 5),
+        ];
+      };
+
+      const updateOverallStats = () => {
+        const { totalRegistered, totalPassed } = collegesData[
+          currentYear
+        ].reduce(
+          (acc, college) => ({
+            totalRegistered:
+              acc.totalRegistered + college["Registration count"],
+            totalPassed: acc.totalPassed + college["All Pass Count"],
+          }),
+          { totalRegistered: 0, totalPassed: 0 }
+        );
+        const overallPassPercentage = calculatePassPercentage(
+          totalPassed,
+          totalRegistered
+        );
+        document.getElementById(
+          "overallPassPercentage"
+        ).textContent = `${overallPassPercentage.toFixed(2)}%`;
+        document.getElementById(
+          "passedStudent"
+        ).textContent = `${totalPassed}/${totalRegistered}`;
+      };
+
+      const updateFullTable = (searchTerm = "") => {
+        const tbody = document.getElementById("collegeTableBody");
+        tbody.innerHTML = "";
+
+        const filteredAndSortedData = collegesData[currentYear]
+          .filter((college) =>
+            college.Institution.toLowerCase().includes(searchTerm.toLowerCase())
+          )
+          .sort((a, b) => {
+            let aValue, bValue;
+            switch (currentSortColumn) {
+              case "rank":
+                return currentSortOrder === "asc"
+                  ? a.rank - b.rank
+                  : b.rank - a.rank;
+              case "name":
+                return currentSortOrder === "asc"
+                  ? a.Institution.localeCompare(b.Institution)
+                  : b.Institution.localeCompare(a.Institution);
+              case "registered":
+                return currentSortOrder === "asc"
+                  ? a["Registration count"] - b["Registration count"]
+                  : b["Registration count"] - a["Registration count"];
+              case "pass":
+                return currentSortOrder === "asc"
+                  ? a["All Pass Count"] - b["All Pass Count"]
+                  : b["All Pass Count"] - a["All Pass Count"];
+              case "passPercentage":
+                return currentSortOrder === "asc"
+                  ? a.passPercentage - b.passPercentage
+                  : b.passPercentage - a.passPercentage;
+              default:
+                return 0;
+            }
+          });
+
+        filteredAndSortedData.forEach((college, index) => {
+          const row = tbody.insertRow();
+          row.innerHTML = `
+                <td class="p-2">${college.rank}</td>
+                <td class="p-2">
+                    <div class="tooltip">
+                        <span class="college-name">${college.Institution}</span>
+                    </div>
+                </td>
+                <td class="p-2">${college["Registration count"]}</td>
+                <td class="p-2">${college["All Pass Count"]}</td>
+                <td class="p-2">${college.passPercentage.toFixed(2)}%</td>
+            `;
+          row.querySelector(".college-name").addEventListener("click", (e) => {
+            e.stopPropagation();
+            showCollegeHistory(college.Institution);
+          });
+        });
+        updateSortIcons();
+      };
+      const updateSortIcons = () => {
+        document.querySelectorAll(".sort-icon").forEach((icon) => {
+          icon.classList.remove("active", "fa-sort-up", "fa-sort-down");
+          icon.classList.add("fa-sort");
+
+          if (icon.dataset.sort === currentSortColumn) {
+            icon.classList.add("active");
+            icon.classList.remove("fa-sort");
+            icon.classList.add(
+              currentSortOrder === "asc" ? "fa-sort-up" : "fa-sort-down"
+            );
+          }
+        });
+      };
+
+      const handleSort = (column) => {
+        if (column === currentSortColumn) {
+          currentSortOrder = currentSortOrder === "asc" ? "desc" : "asc";
+        } else {
+          currentSortColumn = column;
+          currentSortOrder = "asc";
+        }
+        updateFullTable();
+      };
+
+      const updateHistoricalCharts = () => {
+        updateHistoricalChart();
+        updateHistoricalRegisteredChart();
+      };
+
+      const updateHistoricalChart = () => {
+        const ctx = document.getElementById("historicalChart");
+        const overallPassPercentages = YEARS.map((year) => {
+          const { totalRegistered, totalPassed } = collegesData[year].reduce(
+            (acc, college) => ({
+              totalRegistered:
+                acc.totalRegistered + college["Registration count"],
+              totalPassed: acc.totalPassed + college["All Pass Count"],
+            }),
+            { totalRegistered: 0, totalPassed: 0 }
+          );
+          return calculatePassPercentage(totalPassed, totalRegistered);
+        });
+
+        if (historicalChart) {
+          historicalChart.destroy();
+        }
+
+        historicalChart = createChart(
+          ctx,
+          "Overall Pass Percentage",
+          overallPassPercentages,
+          "Pass Percentage"
+        );
+      };
+
+      const updateHistoricalRegisteredChart = () => {
+        const ctx = document.getElementById("historicalRegisteredChart");
+        const overallRegister = YEARS.map((year) =>
+          collegesData[year].reduce(
+            (sum, college) => sum + college["Registration count"],
+            0
+          )
+        );
+
+        if (historicalRegisteredChart) {
+          historicalRegisteredChart.destroy();
+        }
+
+        historicalRegisteredChart = createChart(
+          ctx,
+          "Overall Registered Student",
+          overallRegister,
+          "Number of Registered Students"
+        );
+      };
+
+      const createChart = (ctx, label, data, yAxisLabel) => {
+        const minValue = Math.min(...data);
+        const maxValue = Math.max(...data);
+
+        return new Chart(ctx, {
+          type: "line",
+          data: {
+            labels: YEARS,
+            datasets: [
+              {
+                label,
+                data,
+                borderColor: "rgba(59, 130, 246, 1)",
+                backgroundColor: "rgba(59, 130, 246, 0.2)",
+                borderWidth: 3,
+                pointBackgroundColor: "rgba(59, 130, 246, 1)",
+                pointBorderColor: "#fff",
+                pointBorderWidth: 2,
+                pointRadius: 5,
+                pointHoverRadius: 7,
+                tension: 0,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                display: false,
+              },
+              tooltip: {
+                callbacks: {
+                  label: (context) => {
+                    let label = context.dataset.label || "";
+                    if (label) {
+                      label += ": ";
+                    }
+                    if (context.parsed.y !== null) {
+                      label +=
+                        yAxisLabel === "Pass Percentage"
+                          ? context.parsed.y.toFixed(2) + "%"
+                          : context.parsed.y.toLocaleString();
+                    }
+                    return label;
+                  },
+                },
+              },
+            },
+            scales: {
+              y: {
+                beginAtZero: false,
+                suggestedMin: Math.max(
+                  0,
+                  Math.floor(minValue) -
+                    (yAxisLabel === "Pass Percentage" ? 5 : 500)
+                ),
+                suggestedMax:
+                  Math.ceil(maxValue) +
+                  (yAxisLabel === "Pass Percentage" ? 5 : 500),
+                title: {
+                  display: true,
+                  text: yAxisLabel,
+                  font: {
+                    weight: "bold",
+                  },
+                },
+                ticks: {
+                  callback: function (value) {
+                    return yAxisLabel === "Pass Percentage"
+                      ? value + "%"
+                      : value.toLocaleString();
+                  },
+                },
+                grid: {
+                  color: "rgba(0, 0, 0, 0.1)",
+                },
+              },
+              x: {
+                grid: {
+                  display: false,
+                },
+              },
+            },
+            animation: {
+              duration: 1500,
+              easing: "easeInOutQuad",
+            },
+            interaction: {
+              intersect: false,
+              mode: "index",
+            },
+          },
+        });
+      };
+
+      const showCollegeHistory = (collegeName) => {
+        const modal = document.getElementById("modal");
+        const modalTitle = document.getElementById("modalTitle");
+        const modalTableBody = document.getElementById("modalTableBody");
+
+        modalTitle.textContent = collegeName;
+        modalTableBody.innerHTML = "";
+
+        const collegeData = YEARS.map((year) => {
+          const collegeInfo = collegesData[year].find(
+            (c) => c.Institution === collegeName
+          );
+          return collegeInfo
+            ? {
+                year,
+                rank: collegeInfo.rank,
+                passPercentage: collegeInfo.passPercentage,
+                registeredCount: collegeInfo["Registration count"],
+              }
+            : null;
+        }).filter((data) => data !== null);
+
+        collegeData.forEach((data) => {
+          const row = modalTableBody.insertRow();
+          row.innerHTML = `
+                <td class="p-2">${data.year}</td>
+                <td class="p-2">${data.rank}</td>
+                <td class="p-2">${data.passPercentage.toFixed(2)}%</td>
+                <td class="p-2">${data.registeredCount}</td>
+            `;
+        });
+
+        updateModalCharts(collegeData);
+
+        modal.classList.remove("hidden");
+      };
+
+      const updateModalCharts = (collegeData) => {
+        const ctxPass = document.getElementById("modalChartPass");
+        const ctxRegistered = document.getElementById("modalChartRegistered");
+
+        if (modalChartPass) modalChartPass.destroy();
+        if (modalChartRegistered) modalChartRegistered.destroy();
+
+        modalChartPass = createModalChart(
+          ctxPass,
+          collegeData,
+          "Pass Percentage",
+          "passPercentage",
+          "rgba(59, 130, 246, 1)"
+        );
+        modalChartRegistered = createModalChart(
+          ctxRegistered,
+          collegeData,
+          "Registered Students",
+          "registeredCount",
+          "rgba(52, 211, 153, 1)"
+        );
+      };
+
+      const createModalChart = (ctx, data, label, dataKey, color) => {
+        return new Chart(ctx, {
+          type: "line",
+          data: {
+            labels: data.map((d) => d.year),
+            datasets: [
+              {
+                label,
+                data: data.map((d) => d[dataKey]),
+                borderColor: color,
+                tension: 0.1,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              title: {
+                display: true,
+                text: `Historical ${label}`,
+              },
+            },
+            scales: {
+              y: {
+                beginAtZero: true,
+                title: {
+                  display: true,
+                  text: label,
+                },
+              },
+            },
+          },
+        });
+      };
+
+      const handleCollegeSearch = () => {
+        const searchTerm = document.getElementById("collegeSearch").value;
+        updateFullTable(searchTerm);
+      };
+
+      document
+        .getElementById("collegeSearch")
+        .addEventListener("input", handleCollegeSearch);
+
+      document.getElementById("yearSelect").addEventListener("change", (e) => {
+        currentYear = e.target.value;
+        updateDashboard();
+      });
+
+      document.getElementById("closeModal").addEventListener("click", () => {
+        document.getElementById("modal").classList.add("hidden");
+      });
+
+      document.querySelectorAll(".sort-icon").forEach((icon) => {
+        icon.addEventListener("click", (e) => {
+          e.stopPropagation();
+          handleSort(e.target.dataset.sort);
+        });
+      });
+
+      fetchData();
+    </script>
+  </body>
+</html>
