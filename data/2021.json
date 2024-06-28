@@ -1,672 +1,672 @@
 [
- {
-  "Institution": "COLLEGE OF ENGINEERING TRIVANDRUM",
-  "Registration count": 674,
-  "All Pass Count": 556
- },
- {
-  "Institution": "MUTHOOT INSTITUTE OF TECHNOLOGY & SCIENCE",
-  "Registration count": 297,
-  "All Pass Count": 240
- },
- {
-  "Institution": "MODEL ENGINEERING COLLEGE",
-  "Registration count": 392,
-  "All Pass Count": 316
- },
- {
-  "Institution": "TKM COLLEGE OF ENGINEERING",
-  "Registration count": 767,
-  "All Pass Count": 609
- },
- {
-  "Institution": "RAJAGIRI SCHOOL OF ENGINEERING & TECHNOLOGY",
-  "Registration count": 728,
-  "All Pass Count": 567
- },
- {
-  "Institution": "GOVERNMENT ENGINEERING COLLEGE THRISSUR",
-  "Registration count": 540,
-  "All Pass Count": 417
- },
- {
-  "Institution": "GOVT. ENGINEERING COLLEGE, BARTON HILL",
-  "Registration count": 319,
-  "All Pass Count": 239
- },
- {
-  "Institution": "LBS INSTITUTE OF TECHNOLOGY FOR WOMEN, POOJAPPURA",
-  "Registration count": 275,
-  "All Pass Count": 204
- },
- {
-  "Institution": "SREE CHITRA THIRUNAL COLLEGE OF ENGINEERING",
-  "Registration count": 412,
-  "All Pass Count": 297
- },
- {
-  "Institution": "CHRIST COLLEGE OF ENGINEERING",
-  "Registration count": 270,
-  "All Pass Count": 193
- },
- {
-  "Institution": "RAJIV GANDHI INSTITUTE OF TECHNOLOGY,KOTTAYAM",
-  "Registration count": 321,
-  "All Pass Count": 225
- },
- {
-  "Institution": "GOVERNMENT COLLEGE OF ENGINEERING KANNUR",
-  "Registration count": 370,
-  "All Pass Count": 257
- },
- {
-  "Institution": "MAR ATHANASIUS COLLEGE OF ENGINEERING, KOTHAMANGALAM",
-  "Registration count": 538,
-  "All Pass Count": 372
- },
- {
-  "Institution": "NSS COLLEGE OF ENGINEERING",
-  "Registration count": 579,
-  "All Pass Count": 392
- },
- {
-  "Institution": "SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY",
-  "Registration count": 407,
-  "All Pass Count": 266
- },
- {
-  "Institution": "AHALIA SCHOOL OF ENGINEERING AND TECHNOLOGY",
-  "Registration count": 145,
-  "All Pass Count": 94
- },
- {
-  "Institution": "FEDERAL INSTITUTE OF SCIENCE AND TECHNOLOGY (FISAT)",
-  "Registration count": 537,
-  "All Pass Count": 348
- },
- {
-  "Institution": "ST JOSEPHS COLLEGE OF ENGINEERING AND TECHNOLOGY PALAI",
-  "Registration count": 401,
-  "All Pass Count": 258
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING CHENGANNUR",
-  "Registration count": 330,
-  "All Pass Count": 206
- },
- {
-  "Institution": "AMAL JYOTHI COLLEGE OF ENGINEERING",
-  "Registration count": 666,
-  "All Pass Count": 408
- },
- {
-  "Institution": "MAR BASELIOS COLLEGE OF ENGINEERING AND TECHNOLOGY",
-  "Registration count": 499,
-  "All Pass Count": 296
- },
- {
-  "Institution": "GOVT. ENGINEERING COLLEGE, KOZHIKODE",
-  "Registration count": 318,
-  "All Pass Count": 188
- },
- {
-  "Institution": "TOC H INSTITUTE OF SCIENCE & TECHNOLOGY",
-  "Registration count": 310,
-  "All Pass Count": 182
- },
- {
-  "Institution": "GOVERNMENT ENGINEERING COLLEGE SREEKRISHNAPURAM",
-  "Registration count": 309,
-  "All Pass Count": 181
- },
- {
-  "Institution": "SAINTGITS COLLEGE OF ENGINEERING",
-  "Registration count": 547,
-  "All Pass Count": 318
- },
- {
-  "Institution": "SREE BUDDHA COLLEGE OF ENGINEERING, PATTOOR",
-  "Registration count": 332,
-  "All Pass Count": 192
- },
- {
-  "Institution": "SAHRDAYA COLLEGE OF ENGINEERING & TECHNOLOGY",
-  "Registration count": 371,
-  "All Pass Count": 213
- },
- {
-  "Institution": "ADI SHANKARA INSTITUTE OF ENGG AND TECHNOLOGY",
-  "Registration count": 432,
-  "All Pass Count": 244
- },
- {
-  "Institution": "VISWAJYOTHI COLLEGE OF ENGINEERING & TECHNOLOGY",
-  "Registration count": 480,
-  "All Pass Count": 271
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING TRIKARIPUR",
-  "Registration count": 185,
-  "All Pass Count": 102
- },
- {
-  "Institution": "JYOTHI ENGINEERING COLLEGE",
-  "Registration count": 397,
-  "All Pass Count": 217
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING, THALASSERY",
-  "Registration count": 371,
-  "All Pass Count": 202
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING ADOOR",
-  "Registration count": 253,
-  "All Pass Count": 137
- },
- {
-  "Institution": "VIMALJYOTHI ENGINEERING COLLEGE",
-  "Registration count": 384,
-  "All Pass Count": 206
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING, KOTTARAKKARA",
-  "Registration count": 51,
-  "All Pass Count": 26
- },
- {
-  "Institution": "SREE NARAYANA GURUKULAM COLLEGE OF ENGINEERING",
-  "Registration count": 246,
-  "All Pass Count": 125
- },
- {
-  "Institution": "KMCT COLLEGE OF ENGINEERING FOR WOMEN",
-  "Registration count": 73,
-  "All Pass Count": 37
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING PERUMON",
-  "Registration count": 222,
-  "All Pass Count": 111
- },
- {
-  "Institution": "LBS COLLEGE OF ENGINEERING",
-  "Registration count": 363,
-  "All Pass Count": 181
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING KALLOOPPARA",
-  "Registration count": 81,
-  "All Pass Count": 40
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING, PATHANAPURAM",
-  "Registration count": 165,
-  "All Pass Count": 81
- },
- {
-  "Institution": "TKM INSTITUTE OF TECHNOLOGY",
-  "Registration count": 219,
-  "All Pass Count": 106
- },
- {
-  "Institution": "NEHRU COLLEGE OF ENGINEERING AND RESEARCH CENTRE",
-  "Registration count": 87,
-  "All Pass Count": 42
- },
- {
-  "Institution": "ST.THOMAS COLLEGE OF ENGINEERING AND TECHNOLOGY, MATTANUR",
-  "Registration count": 125,
-  "All Pass Count": 60
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING KIDANGOOR",
-  "Registration count": 168,
-  "All Pass Count": 80
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING MUTTATHARA",
-  "Registration count": 164,
-  "All Pass Count": 78
- },
- {
-  "Institution": "MGM COLLEGE OF ENGINEERING AND TECHNOLOGY",
-  "Registration count": 82,
-  "All Pass Count": 39
- },
- {
-  "Institution": "SREEPATHY INSTITUTE OF MANAGEMENT AND TECHNOLOGY",
-  "Registration count": 154,
-  "All Pass Count": 73
- },
- {
-  "Institution": "MET'S SCHOOL OF ENGINEERING, MALA",
-  "Registration count": 53,
-  "All Pass Count": 25
- },
- {
-  "Institution": "BISHOP JEROME INSTITUTE",
-  "Registration count": 159,
-  "All Pass Count": 74
- },
- {
-  "Institution": "GOVERNMENT ENGINEERING COLLEGE IDUKKI",
-  "Registration count": 233,
-  "All Pass Count": 106
- },
- {
-  "Institution": "THEJUS ENGINEERING COLLEGE",
-  "Registration count": 340,
-  "All Pass Count": 152
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING VADAKARA",
-  "Registration count": 204,
-  "All Pass Count": 91
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING & TECHNOLOGY-PAYYANUR",
-  "Registration count": 72,
-  "All Pass Count": 32
- },
- {
-  "Institution": "VIDYA ACADEMY OF SCIENCE AND TECHNOLOGY",
-  "Registration count": 637,
-  "All Pass Count": 283
- },
- {
-  "Institution": "MEA ENGINEERING COLLEGE, PERINTHALMANNA",
-  "Registration count": 335,
-  "All Pass Count": 147
- },
- {
-  "Institution": "MAR BASELIOS INSTITUTE OF TECHNOLOGY AND SCIENCE",
-  "Registration count": 231,
-  "All Pass Count": 101
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING KARUNAGAPPALLY",
-  "Registration count": 94,
-  "All Pass Count": 41
- },
- {
-  "Institution": "PROVIDENCE COLLEGE OF ENGINEERING",
-  "Registration count": 103,
-  "All Pass Count": 44
- },
- {
-  "Institution": "MARIAN ENGINEERING COLLEGE",
-  "Registration count": 375,
-  "All Pass Count": 160
- },
- {
-  "Institution": "HOLY GRACE ACADEMY OF ENGINEERING",
-  "Registration count": 47,
-  "All Pass Count": 20
- },
- {
-  "Institution": "SREE NARAYANA GURU COLLEGE OF ENGINEERING & TECHNOLOGY",
-  "Registration count": 106,
-  "All Pass Count": 45
- },
- {
-  "Institution": "MAR BASELIOS CHRISTIAN COLLEGE OF ENGINEERING & TECHNOLOGY",
-  "Registration count": 147,
-  "All Pass Count": 62
- },
- {
-  "Institution": "UNIVERSAL ENGINEERING COLLEGE",
-  "Registration count": 255,
-  "All Pass Count": 107
- },
- {
-  "Institution": "SNM INSTITUTE OF MANAGEMENT AND TECHNOLOGY",
-  "Registration count": 137,
-  "All Pass Count": 57
- },
- {
-  "Institution": "VEDAVYASA INSTITUTE OF TECHNOLOGY",
-  "Registration count": 29,
-  "All Pass Count": 12
- },
- {
-  "Institution": "CARMEL COLLEGE OF ENGINEERING AND TECHNOLOGY",
-  "Registration count": 170,
-  "All Pass Count": 70
- },
- {
-  "Institution": "ACE COLLEGE OF ENGINEERING",
-  "Registration count": 142,
-  "All Pass Count": 58
- },
- {
-  "Institution": "GOVERNMENT ENGINEERING COLLEGE, WAYANAD",
-  "Registration count": 243,
-  "All Pass Count": 99
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING ARANMULA",
-  "Registration count": 74,
-  "All Pass Count": 30
- },
- {
-  "Institution": "TRINITY COLLEGE OF ENGINEERING",
-  "Registration count": 84,
-  "All Pass Count": 34
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING CHERTHALA",
-  "Registration count": 131,
-  "All Pass Count": 53
- },
- {
-  "Institution": "SREE BUDDHA COLLEGE OF ENGINEERING, AYATHIL, ELAVUMTHITTA",
-  "Registration count": 110,
-  "All Pass Count": 44
- },
- {
-  "Institution": "MOHANDAS COLLEGE OF ENGINEERING AND TECHNOLOGY",
-  "Registration count": 178,
-  "All Pass Count": 70
- },
- {
-  "Institution": "MAHAGURU INSTITUTE OF TECHNOLOGY",
-  "Registration count": 157,
-  "All Pass Count": 60
- },
- {
-  "Institution": "ST. THOMAS INSTITUTE FOR SCIENCE & TECHNOLOGY",
-  "Registration count": 108,
-  "All Pass Count": 41
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING AND MANAGEMENT, PUNNAPRA",
-  "Registration count": 213,
-  "All Pass Count": 78
- },
- {
-  "Institution": "MANGALAM COLLEGE OF ENGINEERING",
-  "Registration count": 389,
-  "All Pass Count": 141
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING,POONJAR",
-  "Registration count": 36,
-  "All Pass Count": 13
- },
- {
-  "Institution": "ALBERTIAN INSTITUTE OF SCIENCE AND TECHNOLOGY (AISAT)- TECHNICAL \r\nCAMPUS",
-  "Registration count": 164,
-  "All Pass Count": 59
- },
- {
-  "Institution": "BASELIOS MATHEWS II COLLEGE OF ENGINEERING",
-  "Registration count": 156,
-  "All Pass Count": 56
- },
- {
-  "Institution": "UKF COLLEGE OF ENGINEERING & TECHNOLOGY",
-  "Registration count": 251,
-  "All Pass Count": 89
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING ATTINGAL",
-  "Registration count": 110,
-  "All Pass Count": 39
- },
- {
-  "Institution": "MES INSTITUTE OF TECHNOLOGY AND MANAGEMENT",
-  "Registration count": 133,
-  "All Pass Count": 47
- },
- {
-  "Institution": "ERANAD KNOWLEDGECITY TECHNICAL CAMPUS",
-  "Registration count": 178,
-  "All Pass Count": 62
- },
- {
-  "Institution": "GURUDEVA INSTITUTE OF SCIENCE AND TECHNOLOGY",
-  "Registration count": 92,
-  "All Pass Count": 32
- },
- {
-  "Institution": "INDIRA GANDHI INSTITUTE OF ENGINEERING & TECHNOLOGY",
-  "Registration count": 23,
-  "All Pass Count": 8
- },
- {
-  "Institution": "JAWAHARLAL COLLEGE OF ENGINEERING AND TECHNOLOGY",
-  "Registration count": 144,
-  "All Pass Count": 49
- },
- {
-  "Institution": "M.DASAN INSTITUTE OF TECHNOLOGY",
-  "Registration count": 190,
-  "All Pass Count": 64
- },
- {
-  "Institution": "AWH ENGINEERING COLLEGE",
-  "Registration count": 107,
-  "All Pass Count": 36
- },
- {
-  "Institution": "ILAHIA COLLEGE OF ENGINEERING & TECHNOLOGY",
-  "Registration count": 497,
-  "All Pass Count": 167
- },
- {
-  "Institution": "ICCS COLLEGE OF ENGINEERING AND MANAGEMENT",
-  "Registration count": 3,
-  "All Pass Count": 1
- },
- {
-  "Institution": "KMEA ENGINEERING COLLEGE",
-  "Registration count": 283,
-  "All Pass Count": 93
- },
- {
-  "Institution": "SADGURU SWAMY NITHYANANDA INSTITUTE OF TECHNOLGY",
-  "Registration count": 43,
-  "All Pass Count": 14
- },
- {
-  "Institution": "MUSALIAR COLLEGE OF ENGINEERING AND TECHNOLOGY PATHANAMTHITTA",
-  "Registration count": 157,
-  "All Pass Count": 51
- },
- {
-  "Institution": "SREE NARAYANA INSTITUTE OF TECHNOLOGY, ADOOR",
-  "Registration count": 142,
-  "All Pass Count": 46
- },
- {
-  "Institution": "RAJADHANI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
-  "Registration count": 159,
-  "All Pass Count": 51
- },
- {
-  "Institution": "M G COLLEGE OF ENGINEERING",
-  "Registration count": 25,
-  "All Pass Count": 8
- },
- {
-  "Institution": "MES COLLEGE OF ENGINEERING, KUTTIPPURAM",
-  "Registration count": 366,
-  "All Pass Count": 117
- },
- {
-  "Institution": "MOUNT ZION COLLEGE OF ENGINEERING",
-  "Registration count": 82,
-  "All Pass Count": 26
- },
- {
-  "Institution": "Rajadhani Institute of Science and Technology",
-  "Registration count": 194,
-  "All Pass Count": 60
- },
- {
-  "Institution": "ST.THOMAS COLLEGE OF ENGINEERING & TECHNOLOGY CHENGANNUR",
-  "Registration count": 143,
-  "All Pass Count": 44
- },
- {
-  "Institution": "VIDYA ACADEMY OF SCIENCE AND TECHNOLOGY TECHNICAL CAMPUS",
-  "Registration count": 188,
-  "All Pass Count": 56
- },
- {
-  "Institution": "TOMS COLLEGE OF ENGINEERING",
-  "Registration count": 27,
-  "All Pass Count": 8
- },
- {
-  "Institution": "VALIA KOONAMBAIKULATHAMMA COLLEGE OF ENGINEERING AND TECHNOLOGY",
-  "Registration count": 192,
-  "All Pass Count": 56
- },
- {
-  "Institution": "MALABAR INSTITUTE OF TECHNOLOGY",
-  "Registration count": 90,
-  "All Pass Count": 26
- },
- {
-  "Institution": "SNGIST GROUP OF INSTITUTIONS",
-  "Registration count": 132,
-  "All Pass Count": 38
- },
- {
-  "Institution": "NORTH MALABAR INSTITUTE OF TECHNOLOGY",
-  "Registration count": 96,
-  "All Pass Count": 27
- },
- {
-  "Institution": "COLLEGE OF ENGINEERING MUNNAR",
-  "Registration count": 89,
-  "All Pass Count": 25
- },
- {
-  "Institution": "ROYAL COLLEGE OF ENGINEERING & TECHNOLOGY",
-  "Registration count": 154,
-  "All Pass Count": 43
- },
- {
-  "Institution": "CHRIST KNOWLEDGE CITY",
-  "Registration count": 18,
-  "All Pass Count": 5
- },
- {
-  "Institution": "LOURDES MATHA COLLEGE OF SCIENCE AND TECHNOLOGY",
-  "Registration count": 119,
-  "All Pass Count": 33
- },
- {
-  "Institution": "AL AZHAR COLLEGE OF ENGINEERING AND TECHNOLOGY",
-  "Registration count": 22,
-  "All Pass Count": 6
- },
- {
-  "Institution": "JOHN COX MEMORIAL CSI INSTITUTE OF TECHNOLOGY",
-  "Registration count": 94,
-  "All Pass Count": 25
- },
- {
-  "Institution": "JAIBHARATH COLLEGE OF MANAGEMENT & ENGINEERING TECHNOLOGY",
-  "Registration count": 32,
-  "All Pass Count": 8
- },
- {
-  "Institution": "MUSALIAR COLLEGE OF ENGINEERING",
-  "Registration count": 94,
-  "All Pass Count": 23
- },
- {
-  "Institution": "YOUNUS COLLEGE OF ENGINEERING AND TECHNOLOGY",
-  "Registration count": 139,
-  "All Pass Count": 34
- },
- {
-  "Institution": "ILM COLLEGE OF ENGINEERING AND TECHNOLOGY",
-  "Registration count": 37,
-  "All Pass Count": 9
- },
- {
-  "Institution": "MES COLLEGE OF ENGINEERING & TECHNOLOGY",
-  "Registration count": 83,
-  "All Pass Count": 20
- },
- {
-  "Institution": "MALABAR COLLEGE OF ENGINEERING & TECHNOLOGY",
-  "Registration count": 122,
-  "All Pass Count": 29
- },
- {
-  "Institution": "NIRMALA COLLEGE OF ENGINEERING.",
-  "Registration count": 60,
-  "All Pass Count": 14
- },
- {
-  "Institution": "MUSLIM ASSOCIATION COLLEGE OF ENGINEERING",
-  "Registration count": 84,
-  "All Pass Count": 19
- },
- {
-  "Institution": "MGM COLLEGE OF ENGINEERING AND PHARMACEUTICAL SCIENCES",
-  "Registration count": 172,
-  "All Pass Count": 38
- },
- {
-  "Institution": "IES COLLEGE OF ENGINEERING",
-  "Registration count": 149,
-  "All Pass Count": 32
- },
- {
-  "Institution": "VIJNAN INSTITUTE OF SCIENCE AND TECHNOLOGY (VISAT)",
-  "Registration count": 110,
-  "All Pass Count": 23
- },
- {
-  "Institution": "AL-AMEEN COLLEGE, KULAPPULLY, SHORANUR-2",
-  "Registration count": 125,
-  "All Pass Count": 24
- },
- {
-  "Institution": "HEERA COLLEGE OF ENGINEERING AND TECHNOLOGY (HCET)",
-  "Registration count": 133,
-  "All Pass Count": 25
- },
- {
-  "Institution": "SARABHAI INSTITUTE OF SCIENCE AND TECHNOLOGY",
-  "Registration count": 42,
-  "All Pass Count": 7
- },
- {
-  "Institution": "PRS COLLEGE OF ENGINEERING AND TECHNOLOGY",
-  "Registration count": 55,
-  "All Pass Count": 9
- },
- {
-  "Institution": "MOUNT ZION INSTITUTE OF SCIENCE AND TECHNOLOGY",
-  "Registration count": 20,
-  "All Pass Count": 3
- },
- {
-  "Institution": "KMCT COLLEGE OF ENGINEERING",
-  "Registration count": 66,
-  "All Pass Count": 8
- },
- {
-  "Institution": "YOUNUS INSTITUTE OF TECHNOLOGY",
-  "Registration count": 53,
-  "All Pass Count": 6
- },
- {
-  "Institution": "KOTTAYAM INSTITUTE OF TECHNOLOGY AND SCIENCE",
-  "Registration count": 33,
-  "All Pass Count": 3
- },
- {
-  "Institution": "SHAHUL HAMEED MEMORIAL ENGINEERING COLLEGE",
-  "Registration count": 4,
-  "All Pass Count": 0
- }
+    {
+        "Institution": "COLLEGE OF ENGINEERING TRIVANDRUM",
+        "Registration count": 674,
+        "All Pass Count": 556
+    },
+    {
+        "Institution": "MUTHOOT INSTITUTE OF TECHNOLOGY & SCIENCE",
+        "Registration count": 297,
+        "All Pass Count": 240
+    },
+    {
+        "Institution": "MODEL ENGINEERING COLLEGE",
+        "Registration count": 392,
+        "All Pass Count": 316
+    },
+    {
+        "Institution": "TKM COLLEGE OF ENGINEERING",
+        "Registration count": 767,
+        "All Pass Count": 609
+    },
+    {
+        "Institution": "RAJAGIRI SCHOOL OF ENGINEERING & TECHNOLOGY",
+        "Registration count": 728,
+        "All Pass Count": 567
+    },
+    {
+        "Institution": "GOVERNMENT ENGINEERING COLLEGE THRISSUR",
+        "Registration count": 540,
+        "All Pass Count": 417
+    },
+    {
+        "Institution": "GOVT. ENGINEERING COLLEGE, BARTON HILL",
+        "Registration count": 319,
+        "All Pass Count": 239
+    },
+    {
+        "Institution": "LBS INSTITUTE OF TECHNOLOGY FOR WOMEN, POOJAPPURA",
+        "Registration count": 275,
+        "All Pass Count": 204
+    },
+    {
+        "Institution": "SREE CHITRA THIRUNAL COLLEGE OF ENGINEERING",
+        "Registration count": 412,
+        "All Pass Count": 297
+    },
+    {
+        "Institution": "CHRIST COLLEGE OF ENGINEERING",
+        "Registration count": 270,
+        "All Pass Count": 193
+    },
+    {
+        "Institution": "RAJIV GANDHI INSTITUTE OF TECHNOLOGY,KOTTAYAM",
+        "Registration count": 321,
+        "All Pass Count": 225
+    },
+    {
+        "Institution": "GOVERNMENT COLLEGE OF ENGINEERING KANNUR",
+        "Registration count": 370,
+        "All Pass Count": 257
+    },
+    {
+        "Institution": "MAR ATHANASIUS COLLEGE OF ENGINEERING, KOTHAMANGALAM",
+        "Registration count": 538,
+        "All Pass Count": 372
+    },
+    {
+        "Institution": "NSS COLLEGE OF ENGINEERING",
+        "Registration count": 579,
+        "All Pass Count": 392
+    },
+    {
+        "Institution": "SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY",
+        "Registration count": 407,
+        "All Pass Count": 266
+    },
+    {
+        "Institution": "AHALIA SCHOOL OF ENGINEERING AND TECHNOLOGY",
+        "Registration count": 145,
+        "All Pass Count": 94
+    },
+    {
+        "Institution": "FEDERAL INSTITUTE OF SCIENCE AND TECHNOLOGY (FISAT)",
+        "Registration count": 537,
+        "All Pass Count": 348
+    },
+    {
+        "Institution": "ST JOSEPHS COLLEGE OF ENGINEERING AND TECHNOLOGY PALAI",
+        "Registration count": 401,
+        "All Pass Count": 258
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING CHENGANNUR",
+        "Registration count": 330,
+        "All Pass Count": 206
+    },
+    {
+        "Institution": "AMAL JYOTHI COLLEGE OF ENGINEERING",
+        "Registration count": 666,
+        "All Pass Count": 408
+    },
+    {
+        "Institution": "MAR BASELIOS COLLEGE OF ENGINEERING AND TECHNOLOGY",
+        "Registration count": 499,
+        "All Pass Count": 296
+    },
+    {
+        "Institution": "GOVT. ENGINEERING COLLEGE, KOZHIKODE",
+        "Registration count": 318,
+        "All Pass Count": 188
+    },
+    {
+        "Institution": "TOC H INSTITUTE OF SCIENCE & TECHNOLOGY",
+        "Registration count": 310,
+        "All Pass Count": 182
+    },
+    {
+        "Institution": "GOVERNMENT ENGINEERING COLLEGE SREEKRISHNAPURAM",
+        "Registration count": 309,
+        "All Pass Count": 181
+    },
+    {
+        "Institution": "SAINTGITS COLLEGE OF ENGINEERING",
+        "Registration count": 547,
+        "All Pass Count": 318
+    },
+    {
+        "Institution": "SREE BUDDHA COLLEGE OF ENGINEERING, PATTOOR",
+        "Registration count": 332,
+        "All Pass Count": 192
+    },
+    {
+        "Institution": "SAHRDAYA COLLEGE OF ENGINEERING & TECHNOLOGY",
+        "Registration count": 371,
+        "All Pass Count": 213
+    },
+    {
+        "Institution": "ADI SHANKARA INSTITUTE OF ENGG AND TECHNOLOGY",
+        "Registration count": 432,
+        "All Pass Count": 244
+    },
+    {
+        "Institution": "VISWAJYOTHI COLLEGE OF ENGINEERING & TECHNOLOGY",
+        "Registration count": 480,
+        "All Pass Count": 271
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING TRIKARIPUR",
+        "Registration count": 185,
+        "All Pass Count": 102
+    },
+    {
+        "Institution": "JYOTHI ENGINEERING COLLEGE",
+        "Registration count": 397,
+        "All Pass Count": 217
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING, THALASSERY",
+        "Registration count": 371,
+        "All Pass Count": 202
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING ADOOR",
+        "Registration count": 253,
+        "All Pass Count": 137
+    },
+    {
+        "Institution": "VIMALJYOTHI ENGINEERING COLLEGE",
+        "Registration count": 384,
+        "All Pass Count": 206
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING, KOTTARAKKARA",
+        "Registration count": 51,
+        "All Pass Count": 26
+    },
+    {
+        "Institution": "SREE NARAYANA GURUKULAM COLLEGE OF ENGINEERING",
+        "Registration count": 246,
+        "All Pass Count": 125
+    },
+    {
+        "Institution": "KMCT COLLEGE OF ENGINEERING FOR WOMEN",
+        "Registration count": 73,
+        "All Pass Count": 37
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING PERUMON",
+        "Registration count": 222,
+        "All Pass Count": 111
+    },
+    {
+        "Institution": "LBS COLLEGE OF ENGINEERING",
+        "Registration count": 363,
+        "All Pass Count": 181
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING KALLOOPPARA",
+        "Registration count": 81,
+        "All Pass Count": 40
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING, PATHANAPURAM",
+        "Registration count": 165,
+        "All Pass Count": 81
+    },
+    {
+        "Institution": "TKM INSTITUTE OF TECHNOLOGY",
+        "Registration count": 219,
+        "All Pass Count": 106
+    },
+    {
+        "Institution": "NEHRU COLLEGE OF ENGINEERING AND RESEARCH CENTRE",
+        "Registration count": 87,
+        "All Pass Count": 42
+    },
+    {
+        "Institution": "ST.THOMAS COLLEGE OF ENGINEERING AND TECHNOLOGY, MATTANUR",
+        "Registration count": 125,
+        "All Pass Count": 60
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING KIDANGOOR",
+        "Registration count": 168,
+        "All Pass Count": 80
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING MUTTATHARA",
+        "Registration count": 164,
+        "All Pass Count": 78
+    },
+    {
+        "Institution": "MGM COLLEGE OF ENGINEERING AND TECHNOLOGY",
+        "Registration count": 82,
+        "All Pass Count": 39
+    },
+    {
+        "Institution": "SREEPATHY INSTITUTE OF MANAGEMENT AND TECHNOLOGY",
+        "Registration count": 154,
+        "All Pass Count": 73
+    },
+    {
+        "Institution": "MET'S SCHOOL OF ENGINEERING, MALA",
+        "Registration count": 53,
+        "All Pass Count": 25
+    },
+    {
+        "Institution": "BISHOP JEROME INSTITUTE",
+        "Registration count": 159,
+        "All Pass Count": 74
+    },
+    {
+        "Institution": "GOVERNMENT ENGINEERING COLLEGE IDUKKI",
+        "Registration count": 233,
+        "All Pass Count": 106
+    },
+    {
+        "Institution": "THEJUS ENGINEERING COLLEGE",
+        "Registration count": 340,
+        "All Pass Count": 152
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING VADAKARA",
+        "Registration count": 204,
+        "All Pass Count": 91
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING & TECHNOLOGY-PAYYANUR",
+        "Registration count": 72,
+        "All Pass Count": 32
+    },
+    {
+        "Institution": "VIDYA ACADEMY OF SCIENCE AND TECHNOLOGY",
+        "Registration count": 637,
+        "All Pass Count": 283
+    },
+    {
+        "Institution": "MEA ENGINEERING COLLEGE, PERINTHALMANNA",
+        "Registration count": 335,
+        "All Pass Count": 147
+    },
+    {
+        "Institution": "MAR BASELIOS INSTITUTE OF TECHNOLOGY AND SCIENCE",
+        "Registration count": 231,
+        "All Pass Count": 101
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING KARUNAGAPPALLY",
+        "Registration count": 94,
+        "All Pass Count": 41
+    },
+    {
+        "Institution": "PROVIDENCE COLLEGE OF ENGINEERING",
+        "Registration count": 103,
+        "All Pass Count": 44
+    },
+    {
+        "Institution": "MARIAN ENGINEERING COLLEGE",
+        "Registration count": 375,
+        "All Pass Count": 160
+    },
+    {
+        "Institution": "HOLY GRACE ACADEMY OF ENGINEERING",
+        "Registration count": 47,
+        "All Pass Count": 20
+    },
+    {
+        "Institution": "SREE NARAYANA GURU COLLEGE OF ENGINEERING & TECHNOLOGY",
+        "Registration count": 106,
+        "All Pass Count": 45
+    },
+    {
+        "Institution": "MAR BASELIOS CHRISTIAN COLLEGE OF ENGINEERING & TECHNOLOGY",
+        "Registration count": 147,
+        "All Pass Count": 62
+    },
+    {
+        "Institution": "UNIVERSAL ENGINEERING COLLEGE",
+        "Registration count": 255,
+        "All Pass Count": 107
+    },
+    {
+        "Institution": "SNM INSTITUTE OF MANAGEMENT AND TECHNOLOGY",
+        "Registration count": 137,
+        "All Pass Count": 57
+    },
+    {
+        "Institution": "VEDAVYASA INSTITUTE OF TECHNOLOGY",
+        "Registration count": 29,
+        "All Pass Count": 12
+    },
+    {
+        "Institution": "CARMEL COLLEGE OF ENGINEERING AND TECHNOLOGY",
+        "Registration count": 170,
+        "All Pass Count": 70
+    },
+    {
+        "Institution": "ACE COLLEGE OF ENGINEERING",
+        "Registration count": 142,
+        "All Pass Count": 58
+    },
+    {
+        "Institution": "GOVERNMENT ENGINEERING COLLEGE, WAYANAD",
+        "Registration count": 243,
+        "All Pass Count": 99
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING ARANMULA",
+        "Registration count": 74,
+        "All Pass Count": 30
+    },
+    {
+        "Institution": "TRINITY COLLEGE OF ENGINEERING",
+        "Registration count": 84,
+        "All Pass Count": 34
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING CHERTHALA",
+        "Registration count": 131,
+        "All Pass Count": 53
+    },
+    {
+        "Institution": "SREE BUDDHA COLLEGE OF ENGINEERING, AYATHIL, ELAVUMTHITTA",
+        "Registration count": 110,
+        "All Pass Count": 44
+    },
+    {
+        "Institution": "MOHANDAS COLLEGE OF ENGINEERING AND TECHNOLOGY",
+        "Registration count": 178,
+        "All Pass Count": 70
+    },
+    {
+        "Institution": "MAHAGURU INSTITUTE OF TECHNOLOGY",
+        "Registration count": 157,
+        "All Pass Count": 60
+    },
+    {
+        "Institution": "ST. THOMAS INSTITUTE FOR SCIENCE & TECHNOLOGY",
+        "Registration count": 108,
+        "All Pass Count": 41
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING AND MANAGEMENT, PUNNAPRA",
+        "Registration count": 213,
+        "All Pass Count": 78
+    },
+    {
+        "Institution": "MANGALAM COLLEGE OF ENGINEERING",
+        "Registration count": 389,
+        "All Pass Count": 141
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING,POONJAR",
+        "Registration count": 36,
+        "All Pass Count": 13
+    },
+    {
+        "Institution": "ALBERTIAN INSTITUTE OF SCIENCE AND TECHNOLOGY (AISAT)- TECHNICAL CAMPUS",
+        "Registration count": 164,
+        "All Pass Count": 59
+    },
+    {
+        "Institution": "BASELIOS MATHEWS II COLLEGE OF ENGINEERING",
+        "Registration count": 156,
+        "All Pass Count": 56
+    },
+    {
+        "Institution": "UKF COLLEGE OF ENGINEERING & TECHNOLOGY",
+        "Registration count": 251,
+        "All Pass Count": 89
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING ATTINGAL",
+        "Registration count": 110,
+        "All Pass Count": 39
+    },
+    {
+        "Institution": "MES INSTITUTE OF TECHNOLOGY AND MANAGEMENT",
+        "Registration count": 133,
+        "All Pass Count": 47
+    },
+    {
+        "Institution": "ERANAD KNOWLEDGECITY TECHNICAL CAMPUS",
+        "Registration count": 178,
+        "All Pass Count": 62
+    },
+    {
+        "Institution": "GURUDEVA INSTITUTE OF SCIENCE AND TECHNOLOGY",
+        "Registration count": 92,
+        "All Pass Count": 32
+    },
+    {
+        "Institution": "INDIRA GANDHI INSTITUTE OF ENGINEERING & TECHNOLOGY",
+        "Registration count": 23,
+        "All Pass Count": 8
+    },
+    {
+        "Institution": "JAWAHARLAL COLLEGE OF ENGINEERING AND TECHNOLOGY",
+        "Registration count": 144,
+        "All Pass Count": 49
+    },
+    {
+        "Institution": "M.DASAN INSTITUTE OF TECHNOLOGY",
+        "Registration count": 190,
+        "All Pass Count": 64
+    },
+    {
+        "Institution": "AWH ENGINEERING COLLEGE",
+        "Registration count": 107,
+        "All Pass Count": 36
+    },
+    {
+        "Institution": "ILAHIA COLLEGE OF ENGINEERING & TECHNOLOGY",
+        "Registration count": 497,
+        "All Pass Count": 167
+    },
+    {
+        "Institution": "ICCS COLLEGE OF ENGINEERING AND MANAGEMENT",
+        "Registration count": 3,
+        "All Pass Count": 1
+    },
+    {
+        "Institution": "KMEA ENGINEERING COLLEGE",
+        "Registration count": 283,
+        "All Pass Count": 93
+    },
+    {
+        "Institution": "SADGURU SWAMY NITHYANANDA INSTITUTE OF TECHNOLGY",
+        "Registration count": 43,
+        "All Pass Count": 14
+    },
+    {
+        "Institution": "MUSALIAR COLLEGE OF ENGINEERING AND TECHNOLOGY PATHANAMTHITTA",
+        "Registration count": 157,
+        "All Pass Count": 51
+    },
+    {
+        "Institution": "SREE NARAYANA INSTITUTE OF TECHNOLOGY, ADOOR",
+        "Registration count": 142,
+        "All Pass Count": 46
+    },
+    {
+        "Institution": "RAJADHANI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+        "Registration count": 159,
+        "All Pass Count": 51
+    },
+    {
+        "Institution": "M G COLLEGE OF ENGINEERING",
+        "Registration count": 25,
+        "All Pass Count": 8
+    },
+    {
+        "Institution": "MES COLLEGE OF ENGINEERING, KUTTIPPURAM",
+        "Registration count": 366,
+        "All Pass Count": 117
+    },
+    {
+        "Institution": "MOUNT ZION COLLEGE OF ENGINEERING",
+        "Registration count": 82,
+        "All Pass Count": 26
+    },
+    {
+        "Institution": "Rajadhani Institute of Science and Technology",
+        "Registration count": 194,
+        "All Pass Count": 60
+    },
+    {
+        "Institution": "ST.THOMAS COLLEGE OF ENGINEERING & TECHNOLOGY CHENGANNUR",
+        "Registration count": 143,
+        "All Pass Count": 44
+    },
+    {
+        "Institution": "VIDYA ACADEMY OF SCIENCE AND TECHNOLOGY TECHNICAL CAMPUS",
+        "Registration count": 188,
+        "All Pass Count": 56
+    },
+    {
+        "Institution": "TOMS COLLEGE OF ENGINEERING",
+        "Registration count": 27,
+        "All Pass Count": 8
+    },
+    {
+        "Institution": "VALIA KOONAMBAIKULATHAMMA COLLEGE OF ENGINEERING AND TECHNOLOGY",
+        "Registration count": 192,
+        "All Pass Count": 56
+    },
+    {
+        "Institution": "MALABAR INSTITUTE OF TECHNOLOGY",
+        "Registration count": 90,
+        "All Pass Count": 26
+    },
+    {
+        "Institution": "SNGIST GROUP OF INSTITUTIONS",
+        "Registration count": 132,
+        "All Pass Count": 38
+    },
+    {
+        "Institution": "NORTH MALABAR INSTITUTE OF TECHNOLOGY",
+        "Registration count": 96,
+        "All Pass Count": 27
+    },
+    {
+        "Institution": "COLLEGE OF ENGINEERING MUNNAR",
+        "Registration count": 89,
+        "All Pass Count": 25
+    },
+    {
+        "Institution": "ROYAL COLLEGE OF ENGINEERING & TECHNOLOGY",
+        "Registration count": 154,
+        "All Pass Count": 43
+    },
+    {
+        "Institution": "CHRIST KNOWLEDGE CITY",
+        "Registration count": 18,
+        "All Pass Count": 5
+    },
+    {
+        "Institution": "LOURDES MATHA COLLEGE OF SCIENCE AND TECHNOLOGY",
+        "Registration count": 119,
+        "All Pass Count": 33
+    },
+    {
+        "Institution": "AL AZHAR COLLEGE OF ENGINEERING AND TECHNOLOGY",
+        "Registration count": 22,
+        "All Pass Count": 6
+    },
+    {
+        "Institution": "JOHN COX MEMORIAL CSI INSTITUTE OF TECHNOLOGY",
+        "Registration count": 94,
+        "All Pass Count": 25
+    },
+    {
+        "Institution": "JAIBHARATH COLLEGE OF MANAGEMENT & ENGINEERING TECHNOLOGY",
+        "Registration count": 32,
+        "All Pass Count": 8
+    },
+    {
+        "Institution": "MUSALIAR COLLEGE OF ENGINEERING",
+        "Registration count": 94,
+        "All Pass Count": 23
+    },
+    {
+        "Institution": "YOUNUS COLLEGE OF ENGINEERING AND TECHNOLOGY",
+        "Registration count": 139,
+        "All Pass Count": 34
+    },
+    {
+        "Institution": "ILM COLLEGE OF ENGINEERING AND TECHNOLOGY",
+        "Registration count": 37,
+        "All Pass Count": 9
+    },
+    {
+        "Institution": "MES COLLEGE OF ENGINEERING & TECHNOLOGY",
+        "Registration count": 83,
+        "All Pass Count": 20
+    },
+    {
+        "Institution": "MALABAR COLLEGE OF ENGINEERING & TECHNOLOGY",
+        "Registration count": 122,
+        "All Pass Count": 29
+    },
+    {
+        "Institution": "NIRMALA COLLEGE OF ENGINEERING.",
+        "Registration count": 60,
+        "All Pass Count": 14
+    },
+    {
+        "Institution": "MUSLIM ASSOCIATION COLLEGE OF ENGINEERING",
+        "Registration count": 84,
+        "All Pass Count": 19
+    },
+    {
+        "Institution": "MGM COLLEGE OF ENGINEERING AND PHARMACEUTICAL SCIENCES",
+        "Registration count": 172,
+        "All Pass Count": 38
+    },
+    {
+        "Institution": "IES COLLEGE OF ENGINEERING",
+        "Registration count": 149,
+        "All Pass Count": 32
+    },
+    {
+        "Institution": "VIJNAN INSTITUTE OF SCIENCE AND TECHNOLOGY (VISAT)",
+        "Registration count": 110,
+        "All Pass Count": 23
+    },
+    {
+        "Institution": "AL-AMEEN COLLEGE, KULAPPULLY, SHORANUR-2",
+        "Registration count": 125,
+        "All Pass Count": 24
+    },
+    {
+        "Institution": "HEERA COLLEGE OF ENGINEERING AND TECHNOLOGY (HCET)",
+        "Registration count": 133,
+        "All Pass Count": 25
+    },
+    {
+        "Institution": "SARABHAI INSTITUTE OF SCIENCE AND TECHNOLOGY",
+        "Registration count": 42,
+        "All Pass Count": 7
+    },
+    {
+        "Institution": "PRS COLLEGE OF ENGINEERING AND TECHNOLOGY",
+        "Registration count": 55,
+        "All Pass Count": 9
+    },
+    {
+        "Institution": "MOUNT ZION INSTITUTE OF SCIENCE AND TECHNOLOGY",
+        "Registration count": 20,
+        "All Pass Count": 3
+    },
+    {
+        "Institution": "KMCT COLLEGE OF ENGINEERING",
+        "Registration count": 66,
+        "All Pass Count": 8
+    },
+    {
+        "Institution": "YOUNUS INSTITUTE OF TECHNOLOGY",
+        "Registration count": 53,
+        "All Pass Count": 6
+    },
+    {
+        "Institution": "KOTTAYAM INSTITUTE OF TECHNOLOGY AND SCIENCE",
+        "Registration count": 33,
+        "All Pass Count": 3
+    },
+    {
+        "Institution": "SHAHUL HAMEED MEMORIAL ENGINEERING COLLEGE",
+        "Registration count": 4,
+        "All Pass Count": 0
+    }
 ]
