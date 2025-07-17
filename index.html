@@ -162,6 +162,8 @@
           </svg>
 
           <select id="yearSelect" class="border rounded p-2">
+            <option value="2025">2025</option>
+
             <option value="2024">2024</option>
             <!-- <option value="2023">2023</option> 2023 data not available(couldn't find) -->
             <option value="2022">2022</option>
@@ -350,7 +352,7 @@
 
     <script>
       // Constants
-      const YEARS = ["2019", "2020", "2021", "2022", "2024"];
+      const YEARS = ["2019", "2020", "2021", "2022", "2024","2025"];
       const COLLEGE_COLORS = [
         "rgba(255, 99, 132, 1)", // Pink
         "rgba(54, 162, 235, 1)", // Blue
@@ -361,7 +363,7 @@
 
       // State
       let collegesData = {};
-      let currentYear = "2024";
+      let currentYear = "2025";
       let modalChartPass;
       let modalChartRegistered;
       let historicalChart;
